@@ -10,7 +10,7 @@
   1. `normal`, 连续出现的空白字符被合并为1个空白字符，换行也被当做空格。
   1. `pre`, 保留所有空白字符的原始显示方式，连续出现的空白符不被合并，换行符就是换行符，与&lt;pre>类同。
   1. `nowrap`, 合并连续的空白符，换行被当做空格。遇到父元素边界不进行换行。
-- `text-overflow`: 文字溢出父元素边界时的表现，此属性起作用的前提是，元素同时设置了white-space: nowrap; overflow: hidden; 改属性的主要取值如下：
+- `text-overflow`: 文字溢出父元素边界时的表现，此属性起作用的前提是，元素(block/inline-block)同时设置了white-space: nowrap; overflow: hidden; 改属性的主要取值如下：
   1. `clip`, 裁切掉溢出的部分
   1. `ellipsis`, 当有文字溢出时，在文字末尾显示...，并裁切掉溢出部分。
   1. `<string>`, 与ellipsis类似，但是显示指定的字符串
