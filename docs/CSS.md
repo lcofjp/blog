@@ -1,4 +1,6 @@
 
+- 浏览器事件参考：<https://developer.mozilla.org/en-US/docs/Web/Events>
+
 - `overflow-wrap/word-wrap`: word-wrap是IE的非正式的属性，标准化后命名为overflow-wrap。这个属性有两个主要属性：
   1. `normal`, 禁止拆分单词进行换行。如果单词显示超过边界，则另起一行进行显示，如果另起一行也不能显示，则单词溢出。
   1. `break-word`, 单词遇到超出边界则另起一行，如果一整行都不能显示，则把单词进行拆分后换行。
