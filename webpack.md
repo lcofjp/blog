@@ -22,6 +22,8 @@ import(/* webpackPrefetch: true */ "xxx")
 <link rel="next" href="2.html">
 ```
 
+[参考链接](https://medium.com/webpack/link-rel-prefetch-preload-in-webpack-51a52358f84c)
+
 ## 输出
 
 - 文件名 filename：
