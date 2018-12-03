@@ -30,3 +30,30 @@ line-height属性值指定了单位后，后代元素会继承这个计算出来
 
 #### 在:before或者:after伪元素中，可以通过attr函数来获取其元素的属性值
 
+#### 输入框的相关设置
+
+* 设置placeholder颜色
+
+```css
+textarea::placeholder {
+    color: #F0A531;
+}
+textarea::-webkit-input-placeholder {
+    color: #F0A531;
+}
+textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #F0A531;
+}
+textarea:-ms-input-placeholder {  
+    color: #F0A531;
+}
+```
+* 不允许改变大小
+
+```css
+textarea {
+    resize: none;
+}
+```
+
+
